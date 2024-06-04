@@ -6,11 +6,13 @@
 
 const urlMod = require("url");
 const httpServerFactory = require(`${CONSTANTS.LIBDIR}/httpServerFactory.js`);
+const httpsServerFactory = require(`${CONSTANTS.LIBDIR}/httpsServerFactory.js`);
 
 exports.start = (routeName, listener, messageContainer) => {
     if (listener.flow.env.server) return; // already listening
 
-    listener.flow.env.server = httpServerFactory.createHTTPServer(listener);
+    if(listener.flow.listener.isSecure) listener.flow.env = {"server":httpsServerFactory.createHTTPSServer(listener)};
+    else listener.flow.env = {"server":httpServerFactory.createHTTPServer(listener)};
 
     listener.flow.env.server.on("request", (req, res) => {
         const endPoint = urlMod.parse(req.url, true).pathname;

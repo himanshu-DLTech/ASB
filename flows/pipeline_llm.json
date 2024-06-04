@@ -1,0 +1,29 @@
+{
+	"flow":{
+		"name":"LLM -> convert JSON Flow",
+		"disabled":true,
+		"expandRouteProperties": true
+	},
+	"listener": {
+		"type":"jsonfile", 
+		"isMessageGenerator": true,
+		"path":"{{{ESB_DIR}}}/translateDocProcessing/Json/in/*.json",
+		"donePath":"{{{ESB_DIR}}}/translateDocProcessing/Json/processing"
+	},
+    "route0": {
+		"type":"js",
+		"dependencies":["listener"],
+		"module": "{{{ESB_DIR}}}/custom/generateLlmReq.js"
+	},
+	"route1":{
+		"type": "rest",
+		"dependencies":["route0"],
+		"url": "https://cherami.neuranet.app:9090/apps/neuranet/llmflow",
+		"method": "post",
+		"isSecure": true
+	},
+	"output":{
+		"type": "jsonmodifier",
+		"dependencies":["route1"]
+	}
+}

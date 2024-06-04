@@ -1,0 +1,45 @@
+{
+	"flow": {
+        "name":"Ingest Document API",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"write_file", 
+        "isMessageGenerator": true,
+        "host": "localhost",
+        "port":8083,
+        "url":"/ingest",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route0":{
+        "type": "js",
+        "dependencies":["listener"],
+        "isAsync": false,
+        "module":"{{{ESB_DIR}}}/custom/uploadfile.js"
+    },
+	"route1":{
+		"type": "js",
+		"dependencies":["route0"],
+		"isAsync": false,
+		"module":"{{{ESB_DIR}}}/custom/ingestDoc.js"
+	},
+	"route2":{
+		"type": "rest",
+		"dependencies":["route1"],
+		"url": "https://cherami.neuranet.app:9090/apps/neuranet/indexdoc",
+		"method": "post",
+		"isSecure": true
+	},
+	"route3":{
+		"type": "js",
+		"dependencies":["route2"],
+		"isAsync": false,
+		"js":"message.content = message.content.data? message.content.data: message.content"
+	},
+	"output": {
+		"type":"rest_responder",
+		"dependencies":["route3"]
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "flow": {
+        "name":"Unzip docx Flow",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"custom_file", 
+        "isMessageGenerator": true,
+        "path":"{{{ESB_DIR}}}/translateDocProcessing/uploads/*",
+        "donePath":"{{{ESB_DIR}}}/translateDocProcessing/docForUnziping"
+    },
+    "route0":{
+        "type": "js",
+        "dependencies":["listener"],
+        "isAsync": false,
+        "module":"{{{ESB_DIR}}}/custom/unZip.js"
+    }
+    
+}
+

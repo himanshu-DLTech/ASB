@@ -1,0 +1,26 @@
+{
+    "flow": {
+        "name":"Delete File",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"rest_listener", 
+        "isMessageGenerator": true,
+        "host": "localhost",
+        "port":8083,
+        "url":"/deleteDocument",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route0":{
+        "type": "js",
+        "dependencies":["listener"],
+        "isAsync": false,
+        "module":"{{{ESB_DIR}}}/custom/deleteDocument.js"
+    },
+    "output": {
+        "type":"rest_responder",
+        "dependencies":["route0"]
+    }
+}

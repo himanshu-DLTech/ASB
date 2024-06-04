@@ -1,0 +1,23 @@
+{
+    "flow": {
+        "name":"REST API for download a file",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"http_listener",
+        "isMessageGenerator": true,
+        "host": "localhost",
+        "port":8083,
+        "url":"/download",
+        "allow_origin": "*",
+        "timeout": 120000,
+        "method":"get"
+    },
+    "route0":{
+		"type": "js",
+		"dependencies":"listener",
+		"module":"{{{ESB_DIR}}}/custom/download.js"
+	}
+    
+}

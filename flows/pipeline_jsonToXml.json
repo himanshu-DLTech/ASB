@@ -1,0 +1,20 @@
+{
+    "flow": {
+        "name":"JSON to XML for Docx",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"custom_file", 
+        "isMessageGenerator": true,
+        "path":"{{{ESB_DIR}}}/translateDocProcessing/Json/done/*",
+        "donePath":"{{{ESB_DIR}}}/translateDocProcessing/Json/doneXml"
+    },
+    "route0":{
+        "type": "js",
+        "dependencies":["listener"],
+        "isAsync": false,
+        "module":"{{{ESB_DIR}}}/custom/jsonToXml.js"
+    }
+}
+

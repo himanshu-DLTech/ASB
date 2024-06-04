@@ -1,0 +1,21 @@
+{
+    "flow": {
+        "name":"Zip Document Flow",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"custom_file", 
+        "isMessageGenerator": true,
+        "path":"{{{ESB_DIR}}}/translateDocProcessing/docForZiping/*",
+        "donePath":"{{{ESB_DIR}}}/translateDocProcessing/zipingDoc"
+    },
+    "route0":{
+        "type": "js",
+        "dependencies":["listener"],
+        "isAsync": false,
+        "module":"{{{ESB_DIR}}}/custom/zip.js"
+    }
+    
+}
+

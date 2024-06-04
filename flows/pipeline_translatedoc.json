@@ -1,0 +1,26 @@
+{
+    "flow": {
+        "name":"Upload docx for translation",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"write_file", 
+        "isMessageGenerator": true,
+        "host": "localhost",
+        "port":8083,
+        "url":"/translate",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route0":{
+        "type": "js",
+        "dependencies":["listener"],
+        "isAsync": false,
+        "module":"{{{ESB_DIR}}}/custom/uploadDocxFile.js"
+    },
+    "output": {
+		"type":"rest_responder",
+		"dependencies":["listener", "route0"]
+	}
+}
