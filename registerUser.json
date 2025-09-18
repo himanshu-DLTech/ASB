@@ -1,0 +1,102 @@
+{
+    "ankit.saxena@deeplogictech.com": {
+        "id": 110,
+        "name": "Ankit Saxena",
+        "token": "91696d58db810524b622f8d84ebfc63e8f9684a7448042b7dc36146f7bd839c24b82810e3434ea2a",
+        "role": "Manager",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "siddharth.tiwari@deeplogictech.com": {
+        "id": 152,
+        "name": "Siddharth Tiwari",
+        "token": "ada6d9f190bbd0720990e9c0e84f32f53578f5c1001d8d7cf80c5a3e3b7fb2112e8a07ca81cd22f8",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "himanshu.gupta@deeplogictech.com": {
+        "id": 169,
+        "name": "Himanshu Gupta",
+        "token": "ebedc16e81ad2c36d7d33fe7fe5fcfd9f9db2ca2ce56709f70f97321d89198f260e04b0e1b0b3b1a",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "siddharth.gulati@deeplogictech.com": {
+        "id": 139,
+        "name": "Siddharth Gulati",
+        "token": "cf269bfcf02a537e727152b84cd32c1036d7173ef72041c921943b0c2e9341e49b664732ba2a77d4",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "harshavardhan.santhala@deeplogictech.com": {
+        "id": 18,
+        "name": "Harshavardhan",
+        "token": "03b135b503d2ea345d27592436339bdb89e8d6e74cc25f0477ab6f91c20897a05cc7daee4ae091e0",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "shiv.arora@deeplogictech.com": {
+        "id": 181,
+        "name": "Shiv Arora",
+        "token": "ff58c3e7b59babc69c1b45924af0b310bf8d97e26e40b747f32e3648546e174654ecc5c22f025b01",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "nishant.bindhani@deeplogictech.com": {
+        "id": 186,
+        "name": "Nishant Bindhani",
+        "token": "b7eb4e36532a3dcc53e7d623d83217d8f8a30f38cdb6182b5f47aeddc2c73d975205995c89745b36",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "lavanya.sharma@deeplogictech.com": {
+        "id": 185,
+        "name": "Lavanya Sharma",
+        "token": "7ab4582ad0baf94cad0adef74be969a349049330733b6f16e39ba63af3163cc5b7ac686950c099c7",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "vivek.kumar@tekmonks.com": {
+        "id": 199,
+        "name": "Vivek Kumar",
+        "token": "848f550b631f7e89037ddfe48b09f8585257c163e7bfacae12b9d29bfa3179af21ae07166fc1ad5e",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "mandeep.singh@tekmonks.com": {
+        "id": 197,
+        "name": "Mandeep Singh",
+        "token": "5fea4d2c63a4d2db847d9d35be1e54724cfd18a902b0805e6aeb5f34996c5038f6e9c683c1e7223a",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    }
+}

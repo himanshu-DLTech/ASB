@@ -1,0 +1,63 @@
+{
+    "flow": {
+        "name":"REST API for sending reminder of open mantises",
+        "disabled": false,
+        "expandRouteProperties": true,
+        "cpuInterval": 15000
+    },
+    "listener": {
+        "type":"rest_listener",
+        "isMessageGenerator": true,
+        "host": "167.71.230.49",
+        "port":9000,
+        "url":"/emailIssues",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route0":{
+        "type":"js",
+        "dependencies" : "listener",
+        "module":"{{{ESB_DIR}}}/custom/setEmailHeaderForNotification.js"
+    },
+    "route1":{
+        "type" : "rest",
+        "dependencies" : ["route0"],
+        "url":"https://tekmonks.mantishub.io/api/rest/issues?filter_id=assigned&page_size=40&page=1",
+        "isSecure": true,
+        "method": "get"
+    },
+    "route2":{
+        "type" : "js",
+        "dependencies": ["route1"],
+        "module" : "{{{ESB_DIR}}}/custom/handleIssues.js"
+    },
+    "route3":{
+        "type":"mustache",
+        "dependencies":["route2"],
+        "template":"{{{ESB_DIR}}}/custom/templates/issuesTable.html"
+    },
+    "route4":{
+        "type" : "js",
+        "dependencies": ["route3"],
+        "js" : "message.issuesTable = message.content; message.content = {}; message.content.html = message.issuesTable; delete message.issuesTable; message.content.to = message.env.to ; let monthNames = ['January', 'February', 'March', 'April', 'May', 'June','July', 'August', 'September', 'October', 'November', 'December'];const currentDate = new Date (); message.content.title = `🦗 Active Mantises - ${message.env.name} - ${currentDate.getDate()} ${monthNames[currentDate.getMonth()]} ${currentDate.getFullYear()}` "
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route4"],
+		"host":"smtp.mailgun.org",
+		"port": 465,
+		"secure": true,
+		"user": "postmaster@mg.monboss.com",
+		"password": "37988ae084005e7fc3752655a85384eab377f9d0ae08e96cb2d4fd64ddcd511a6b70ee149c2c074a57238f00e06f61d3be19c45ca451e8928684",
+		"from": "'Mantis Tracker'<watchman@mg.monbosss.com>"
+    },
+    "route5":{
+        "type" : "js",
+        "dependencies": ["output"],
+        "js" : "let result = message.content.rejected; message.content={}; if (!result.length) message.content.result = 'True'; else message.content.result ='false'; "
+    },
+    "output2":{
+        "type":"rest_responder",
+		"dependencies":[ "route5"]
+    }
+}

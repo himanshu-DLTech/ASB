@@ -1,0 +1,39 @@
+{
+    "flow": {
+        "name":"Test -> report generation",
+        "disabled": true,
+        "autoGC":false,
+        "expandRouteProperties": true,
+        "cpuInterval": 15000
+    },
+    "listener": {
+        "type":"rest_listener",
+        "isMessageGenerator": true,
+        "host": "167.71.230.49",
+        "port":9000,
+        "url":"/testReport",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route0" :{
+        "type":"js",
+        "dependencies" : "listener",
+        "module":"{{{ESB_DIR}}}/custom/mapping.js"
+    },
+    "route1":{
+        "type" : "rest",
+        "dependencies" : "route0",
+        "url":"https://tekmonks.mantishub.io/api/rest/issues?page_size=150&page=1&select=id,summary,description,updated_at,history,created_at",
+        "method":"get"
+    },
+    "route2":{
+        "type":"js",
+        "dependencies":"route1",
+        "module":"{{{ESB_DIR}}}/custom/countActivity.js"
+    },
+    "route3":{
+        "type":"js",
+        "dependencies":"route1",
+        "module":"{{{ESB_DIR}}}/custom/reportGenerate.js"
+    }
+}

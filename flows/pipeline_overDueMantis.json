@@ -1,0 +1,46 @@
+{
+    "flow": {
+        "name":"REST API for sending reminder of Overdue mantises from past 7 days",
+        "disabled": false,
+        "expandRouteProperties": true,
+        "cpuInterval": 15000
+    },
+    "listener": {
+        "type":"rest_listener",
+        "isMessageGenerator": true,
+        "host": "167.71.230.49",
+        "port":9000,
+        "url":"/overDueMantis",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route1":{
+        "type":"js",
+        "dependencies":["listener"],
+        "js":" message.env.email = message.content.email; message.content.overDueMantis= message.content.mantises ; message.env.name= message.content.name; message.content.table = true;"
+    },
+    "route2":{
+        "type":"mustache",
+        "dependencies":["route1"],
+        "template":"{{{ESB_DIR}}}/custom/templates/overDueMantis.html"
+    },
+    "route3":{
+        "type" : "js",
+        "dependencies": ["route2"],
+        "js" : "message.logsMsg = message.content; message.content = {}; message.content.html = message.logsMsg; delete message.logsMsg; let monthNames = ['January', 'February', 'March', 'April', 'May', 'June','July', 'August', 'September', 'October', 'November', 'December'];const currentDate = new Date (); message.content.title = `⚠️ Overdue Mantises since 7 days - ${message.env.name} - ${currentDate.getDate()} ${monthNames[currentDate.getMonth()]} ${currentDate.getFullYear()} `; message.content.to = message.env.email;"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route3"],
+		"host":"smtp.mailgun.org",
+		"port": 465,
+		"secure": true,
+		"user": "postmaster@mg.monboss.com",
+		"password": "37988ae084005e7fc3752655a85384eab377f9d0ae08e96cb2d4fd64ddcd511a6b70ee149c2c074a57238f00e06f61d3be19c45ca451e8928684",
+		"from": "'Mantis Tracker'<watchman@mg.monbosss.com>"
+    },
+    "output1":{
+        "type":"rest_responder",
+		"dependencies":[ "output"]
+    }
+}

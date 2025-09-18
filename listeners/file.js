@@ -40,7 +40,7 @@ function convertFSWildcardsToJSRegEx(path) {
 
 function processFile(file, routeName, listener, messageContainer, cb) {
     LOG.info(`[FILE_LISTENER] Detected: ${file}`); 
-    const newPath = `${listener.donePath}/${path.basename(file)}.${utils.getTimeStamp()}`;
+    const newPath = `${listener.donePath}/${utils.getTimeStamp()}_${path.basename(file)}`;
 
     const message = MESSAGE_FACTORY.newMessageAllocSafe();
     if (!message) {LOG.error("[FILE_LISTENER] Message creation error, throttling listener."); return;}
