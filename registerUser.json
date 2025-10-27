@@ -88,15 +88,5 @@
         "report_to": [
             "ankit.saxena@deeplogictech.com"
         ]
-    },
-    "mandeep.singh@tekmonks.com": {
-        "id": 197,
-        "name": "Mandeep Singh",
-        "token": "5fea4d2c63a4d2db847d9d35be1e54724cfd18a902b0805e6aeb5f34996c5038f6e9c683c1e7223a",
-        "role": "Dev",
-        "timezone": "IST",
-        "report_to": [
-            "ankit.saxena@deeplogictech.com"
-        ]
     }
 }
