@@ -1,0 +1,51 @@
+{
+    "flow": {
+      "name": "Escalation mail to Dev's",
+      "disabled": true,
+      "expandRouteProperties": true,
+      "cpuInterval": 15000
+    },
+    "listener": {
+        "type":"rest_listener",
+        "isMessageGenerator": true,
+        "host": "167.71.230.49",
+        "port":9000,
+        "url":"/inactivityEscalationApi",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route0":{
+          "type": "js",
+          "dependencies":["listener"],
+          "module":"{{{ESB_DIR}}}/custom/inactivityEscalationData.js"
+      },
+      "route1":{
+          "type": "mustache",
+          "dependencies":["route0"],
+          "template":"{{{ESB_DIR}}}/custom/templates/escalateToDev.html"
+      },
+      "route2":{
+          "type": "js",
+          "dependencies":["route1"],
+          "js":"message.escalate = message.content; message.content = {}; message.content.html = message.escalate; delete message.escalate; message.content.to = message.env.to ; message.content.title = `🚨 Escalation Notice - ${message.env.name}`;"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route2"],
+		"host":"smtp.gmail.com",
+		"port": 465,
+		"secure": true,
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Watchman'<watchman@mg.monbosss.com>"
+    }, 
+    "route3":{
+        "type" : "js",
+        "dependencies": ["output"],
+        "js" : "let result = message.content.rejected; message.content={}; if (!result.length) message.content.result = 'True'; else message.content.result ='false'; "
+    },
+    "output2":{
+        "type":"rest_responder",
+		"dependencies":[ "route3"]
+    }
+}

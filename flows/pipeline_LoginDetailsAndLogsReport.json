@@ -1,0 +1,25 @@
+{
+	"flow": {
+		"name":"Login Details And Logs Report",
+		"disabled": true,
+		"expandRouteProperties": true
+	},
+	"listener": {
+		"type":"file", 
+		"isMessageGenerator": true,
+		"path":"{{{ESB_DIR}}}/neuranetLogs/*",
+        "donePath":"{{{ESB_DIR}}}/processing"
+	},
+	"route0":{
+		"type": "js",
+		"dependencies":["listener"],
+		"isAsync": false,
+		"module":"{{{ESB_DIR}}}/custom/sendLogsReport.js"
+	},
+    "route1":{
+        "type" : "rest",
+        "dependencies" : ["route0"],
+        "url":"https://tekmonks.mantishub.io/api/rest/issues/3429/notes",
+        "method":"post"
+    }
+}

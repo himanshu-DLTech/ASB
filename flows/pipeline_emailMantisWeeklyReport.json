@@ -1,0 +1,40 @@
+{
+    "flow": {
+        "name":"ASB Mantis Tracker Weekly Report ",
+        "disabled": true,
+        "expandRouteProperties": true,
+        "cpuInterval": 15000
+    },
+    "listener": {
+        "type": "timer",
+        "isMessageGenerator": true,
+        "cron": "0 45 2 * * 1"
+    },
+    "route0":{
+        "type":"js",
+        "dependencies":["listener"],
+        "module":"{{{ESB_DIR}}}/custom/mantisWeeklyReport.js"
+    }
+    ,
+    "route1":{
+        "type":"mustache",
+        "dependencies":["route0"],
+        "template":"{{{ESB_DIR}}}/custom/templates/mantisWeeklyReport.html"
+    },
+    "route2":{
+        "type" : "js",
+        "dependencies": ["route1"],
+        "js" : "message.logsMsg = message.content; message.content = {}; message.content.html = message.logsMsg; delete message.logsMsg; message.content.title = ` Mantis Report Weekly- ${message.env.weekRange}`;"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route2"],
+		"host":"smtp.gmail.com",
+		"port": 465,
+        "to":["ankit.saxena@deeplogictech.com","sonu.kumar@deeplogictech.com"],
+		"secure": true,
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Tracker'<logbot@deeplogictech.com>"
+    }
+}

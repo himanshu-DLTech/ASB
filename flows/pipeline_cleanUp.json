@@ -1,0 +1,17 @@
+{
+    "flow": {
+        "name":"clean up processing folder flow",
+        "disabled":false,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"timer", 
+        "isMessageGenerator": true,
+        "cron": "0 0 0 * * *"
+    },
+    "route0" :{
+        "type":"js",
+        "dependencies" : "listener",
+        "module":"{{{ESB_DIR}}}/custom/cleanUp.js"
+    }
+}

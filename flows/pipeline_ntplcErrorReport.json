@@ -1,0 +1,26 @@
+{
+  "flow": {
+    "name": "REST API for updating ntplc error mantis",
+    "disabled": true,
+    "expandRouteProperties": true,
+    "cpuInterval": 15000
+  },
+  "listener": {
+    "type": "file",
+    "isMessageGenerator": true,
+    "path": "{{{ESB_DIR}}}/ntplcErrorLogs/*",
+    "donePath": "{{{ESB_DIR}}}/testing/processing"
+  },
+  "route0": {
+    "type": "js",
+    "dependencies": ["listener"],
+    "isAsync": false,
+    "module": "{{{ESB_DIR}}}/custom/ntplcErrorReport.js"
+  },
+  "route1": {
+    "type": "rest",
+    "dependencies": ["route0"],
+    "url": "https://tekmonks.mantishub.io/api/rest/issues/5357/notes",
+    "method": "post"
+  }
+}

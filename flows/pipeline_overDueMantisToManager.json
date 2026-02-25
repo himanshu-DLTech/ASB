@@ -32,12 +32,12 @@
     "output":{
         "type":"email",
         "dependencies" : ["route3"],
-		"host":"smtp.mailgun.org",
+		"host":"smtp.gmail.com",
 		"port": 465,
 		"secure": true,
-		"user": "postmaster@mg.monboss.com",
-		"password": "37988ae084005e7fc3752655a85384eab377f9d0ae08e96cb2d4fd64ddcd511a6b70ee149c2c074a57238f00e06f61d3be19c45ca451e8928684",
-		"from": "'Mantis Tracker'<watchman@mg.monbosss.com>"
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Tracker'<logbot@deeplogictech.com>"
     },
     "output1":{
         "type":"rest_responder",

@@ -22,7 +22,7 @@ exports.start = async (routeName, email, _messageContainer, message) => {
 
     const result = await mailer.email(email.to, email.from, email.title, 
         email.html, email.text, email.attachments, { user: email.user, 
-            pass: crypt.decrypt(email.password), server: email.host, port: email.port, secure: email.secure });
+            pass: email.password, server: email.host, port: email.port, secure: email.secure });
 
     if (result.result) {
         message.addRouteDone(routeName);

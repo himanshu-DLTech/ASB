@@ -14731,5 +14731,5119 @@
       }
     ],
     "usersPR": []
+  },
+  "2025-09-18": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Mandeep Singh",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/clientcode/pull/55"
+        ]
+      }
+    ]
+  },
+  "2025-09-19": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-09-20": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-09-21": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-09-22": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Mandeep Singh",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/151"
+        ]
+      },
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/150"
+        ]
+      }
+    ]
+  },
+  "2025-09-23": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 7,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 9,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Mandeep Singh",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2025-09-24": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 22,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/clientcode/pull/56",
+          "https://github.com/TekMonksGitHub/clientcode/pull/57"
+        ]
+      }
+    ]
+  },
+  "2025-09-25": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 10,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/152"
+        ]
+      }
+    ]
+  },
+  "2025-09-26": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-09-27": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-09-28": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-09-29": {
+    "openIssues": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 6,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 7,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Mandeep Singh",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2025-09-30": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2025-10-01": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-02": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 6,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-03": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 7,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-04": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-10-05": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-10-06": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-07": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-08": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/38"
+        ]
+      }
+    ]
+  },
+  "2025-10-09": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-10": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/153",
+          "https://github.com/TekMonksGitHub/ASB/pull/35"
+        ]
+      }
+    ]
+  },
+  "2025-10-11": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-10-12": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 5,
+        "role": "Manager"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-13": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 5,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-14": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/39"
+        ]
+      }
+    ]
+  },
+  "2025-10-15": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-16": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/154"
+        ]
+      }
+    ]
+  },
+  "2025-10-17": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/155",
+          "https://github.com/TekMonksGitHub/neuranet/pull/156"
+        ]
+      }
+    ]
+  },
+  "2025-10-18": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-10-19": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-20": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-10-21": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 7,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-22": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-23": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-24": {
+    "openIssues": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/40"
+        ]
+      }
+    ]
+  },
+  "2025-10-25": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-10-26": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-10-27": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/157"
+        ]
+      }
+    ]
+  },
+  "2025-10-28": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-29": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Harshavardhan",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-30": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-10-31": {
+    "openIssues": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-01": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-11-02": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-11-03": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-04": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-05": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-06": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-07": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-08": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-11-09": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-11-10": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 7,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-11": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Harshavardhan",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Harshavardhan",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-12": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/158"
+        ]
+      },
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/loginapp/pull/13"
+        ]
+      }
+    ]
+  },
+  "2025-11-13": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/loginapp/pull/14"
+        ]
+      }
+    ]
+  },
+  "2025-11-14": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-15": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-11-16": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-11-17": {
+    "openIssues": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/loginapp/pull/15"
+        ]
+      }
+    ]
+  },
+  "2025-11-18": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Harshavardhan",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Harshavardhan",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-19": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/41"
+        ]
+      }
+    ]
+  },
+  "2025-11-20": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2025-11-21": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-22": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-11-23": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-11-24": {
+    "openIssues": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/42"
+        ]
+      },
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2025-11-25": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-26": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-27": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2025-11-28": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-29": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-11-30": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-01": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 12,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-02": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-03": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 11,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-04": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-05": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 12,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/45",
+          "https://github.com/TekMonksGitHub/kloudust/pull/46",
+          "https://github.com/TekMonksGitHub/kloudust/pull/47",
+          "https://github.com/TekMonksGitHub/kloudust/pull/48"
+        ]
+      }
+    ]
+  },
+  "2025-12-06": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-07": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-08": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 6,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/reflection/pull/2",
+          "https://github.com/TekMonksGitHub/kloudust/pull/50"
+        ]
+      }
+    ]
+  },
+  "2025-12-09": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-10": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 4,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/51"
+        ]
+      }
+    ]
+  },
+  "2025-12-11": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 8,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-12": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-13": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-14": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-15": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-16": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-17": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 7,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-18": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-19": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 10,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-20": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 10,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/52"
+        ]
+      }
+    ]
+  },
+  "2025-12-21": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-22": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-23": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-24": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-25": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-26": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-27": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-28": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2025-12-29": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2025-12-30": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 9,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/53",
+          "https://github.com/TekMonksGitHub/kloudust/pull/54"
+        ]
+      }
+    ]
+  },
+  "2025-12-31": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 10,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-01-01": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-01-02": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 4,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 18,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-01-03": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/55",
+          "https://github.com/TekMonksGitHub/kloudust/pull/56"
+        ]
+      }
+    ]
+  },
+  "2026-01-04": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/57"
+        ]
+      }
+    ]
+  },
+  "2026-01-05": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 13,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/58"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/159"
+        ]
+      }
+    ]
+  },
+  "2026-01-06": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 14,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/61",
+          "https://github.com/TekMonksGitHub/kloudust/pull/59",
+          "https://github.com/TekMonksGitHub/kloudust/pull/60"
+        ]
+      }
+    ]
+  },
+  "2026-01-07": {
+    "openIssues": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 5,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-01-08": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/160"
+        ]
+      },
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/161"
+        ]
+      },
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/163"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/162"
+        ]
+      }
+    ]
+  },
+  "2026-01-09": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/165",
+          "https://github.com/TekMonksGitHub/neuranet/pull/164"
+        ]
+      },
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranetplugins/pull/1"
+        ]
+      }
+    ]
+  },
+  "2026-01-10": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 8,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-01-11": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-01-12": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/166"
+        ]
+      }
+    ]
+  },
+  "2026-01-13": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 17,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/62",
+          "https://github.com/TekMonksGitHub/kloudust/pull/63"
+        ]
+      }
+    ]
+  },
+  "2026-01-14": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 19,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/66"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-01-15": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 17,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/70",
+          "https://github.com/TekMonksGitHub/kloudust/pull/69",
+          "https://github.com/TekMonksGitHub/kloudust/pull/67",
+          "https://github.com/TekMonksGitHub/kloudust/pull/68"
+        ]
+      }
+    ]
+  },
+  "2026-01-16": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 13,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/167"
+        ]
+      },
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/71",
+          "https://github.com/TekMonksGitHub/kloudust/pull/72"
+        ]
+      }
+    ]
+  },
+  "2026-01-17": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 24,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/75"
+        ]
+      }
+    ]
+  },
+  "2026-01-18": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-01-19": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 5,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-01-20": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 7,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/77"
+        ]
+      }
+    ]
+  },
+  "2026-01-21": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/80"
+        ]
+      },
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/cyberwarrior/pull/1"
+        ]
+      }
+    ]
+  },
+  "2026-01-22": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 7,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-01-23": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 12,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/81",
+          "https://github.com/TekMonksGitHub/kloudust/pull/82"
+        ]
+      }
+    ]
+  },
+  "2026-01-24": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-01-25": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-01-26": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-01-27": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 10,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-01-28": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 13,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/83",
+          "https://github.com/TekMonksGitHub/kloudust/pull/84"
+        ]
+      }
+    ]
+  },
+  "2026-01-29": {
+    "openIssues": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-01-30": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/85"
+        ]
+      }
+    ]
+  },
+  "2026-01-31": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-02-01": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-02-02": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monkvision/pull/68"
+        ]
+      }
+    ]
+  },
+  "2026-02-03": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/86"
+        ]
+      }
+    ]
+  },
+  "2026-02-04": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-02-05": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-02-06": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 6,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monboss/pull/23",
+          "https://github.com/TekMonksGitHub/monkvision/pull/69"
+        ]
+      }
+    ]
+  },
+  "2026-02-07": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-02-08": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-02-09": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 5,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 9,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/87"
+        ]
+      }
+    ]
+  },
+  "2026-02-10": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      },
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-02-11": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/88"
+        ]
+      },
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-02-12": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-02-13": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-02-14": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-02-15": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-02-16": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 15,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 4,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/89",
+          "https://github.com/TekMonksGitHub/kloudust/pull/90",
+          "https://github.com/TekMonksGitHub/kloudust/pull/93",
+          "https://github.com/TekMonksGitHub/kloudust/pull/91"
+        ]
+      }
+    ]
+  },
+  "2026-02-17": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 5,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/98",
+          "https://github.com/TekMonksGitHub/kloudust/pull/103",
+          "https://github.com/TekMonksGitHub/kloudust/pull/104",
+          "https://github.com/TekMonksGitHub/kloudust/pull/99",
+          "https://github.com/TekMonksGitHub/kloudust/pull/95"
+        ]
+      }
+    ]
+  },
+  "2026-02-18": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/105"
+        ]
+      }
+    ]
+  },
+  "2026-02-19": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/106"
+        ]
+      }
+    ]
+  },
+  "2026-02-20": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/107"
+        ]
+      }
+    ]
+  },
+  "2026-02-21": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-02-22": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-02-23": {
+    "openIssues": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 7,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 10,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-02-24": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/108",
+          "https://github.com/TekMonksGitHub/kloudust/pull/110"
+        ]
+      }
+    ]
   }
 }

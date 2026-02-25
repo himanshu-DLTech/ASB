@@ -1,0 +1,45 @@
+{
+    "flow": {
+        "name":"This flow  for sending email to manager about the person with 0 mantis open",
+        "disabled": true,
+        "expandRouteProperties": true,
+        "cpuInterval": 15000
+    },
+   "listener": {
+        "type": "timer",
+        "isMessageGenerator": true,
+        "cron": "0 15 3 * * 1-5"
+    },
+    "route0":{
+        "type":"filereader",
+        "dependencies" : "listener",
+        "path":"{{{ESB_DIR}}}/noMantisUsers.json"
+    },
+    "route1":{
+        "type" : "js",
+        "dependencies": ["route0"],
+        "module" : "{{{ESB_DIR}}}/custom/getNoMantisUsers.js"
+    },
+    "route2":{
+        "type":"mustache",
+        "dependencies":["route1"],
+        "template":"{{{ESB_DIR}}}/custom/templates/escalateToManager.html"
+    },
+    "route3":{
+        "type" : "js",
+        "dependencies": ["route2"],
+        "js" : "message.reportToManager = message.content; message.content = {}; message.content.html = message.reportToManager; delete message.reportToManager;"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route3"],
+		"host":"smtp.gmail.com",
+		"port": 465,
+		"secure": true,
+        "to":"ankit.saxena@deeplogictech.com,ajay.bhatheja@deeplogictech.com,sonu.kumar@deeplogictech.com",
+        "title" :"🚨 Employees with no mantises",
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Watchman'<watchman@mg.monbosss.com>"
+    }
+}

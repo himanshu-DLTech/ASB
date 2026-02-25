@@ -1,0 +1,27 @@
+{
+    "flow": {
+        "name":"create a resolve mantis report flow",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type": "timer",
+        "isMessageGenerator": true,
+        "cron": "0 30 3 * * 1-5"
+    },
+    "route0" :{
+        "type":"js",
+        "dependencies" : "listener",
+        "module":"{{{ESB_DIR}}}/custom/headerForResolvedMantis.js"
+    },
+    "route1":{
+        "type" : "rest",
+        "dependencies" : ["route0"],
+        "url":"https://tekmonks.mantishub.io/api/rest/issues?page_size=10000&page=1&select=id,summary,description,status,updated_at,priority,handler,project,severity,created_at"
+    },
+    "route2" :{
+        "type":"js",
+        "dependencies" : "route1",
+        "module":"{{{ESB_DIR}}}/custom/resolvedMantises.js"
+    }
+}

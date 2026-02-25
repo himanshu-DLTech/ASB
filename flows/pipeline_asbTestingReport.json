@@ -1,0 +1,32 @@
+{
+	"flow":{
+		"name":"ASB Daily testing logs",
+		"disabled":true,
+		"expandRouteProperties": true,
+		"cpuInterval": 15000
+	},
+	"listener": {
+		"type":"file", 
+		"isMessageGenerator": true,
+		"path":"{{{ESB_DIR}}}/asbTest/*",
+		"donePath": "{{{ESB_DIR}}}/processing"
+	},
+	"route0":{
+		"type": "js",
+		"dependencies":["listener"],
+		"isAsync": false,
+		"module":"{{{ESB_DIR}}}/custom/jsonToPng.js"
+	},
+	"route1":{
+		"type": "js",
+		"dependencies":["route0"],
+		"isAsync": false,
+		"module":"{{{ESB_DIR}}}/custom/asbTestReport.js"
+	  },
+	"route2":{
+		"type" : "rest",
+		"dependencies" : ["route1"],
+		"url":"https://tekmonks.mantishub.io/api/rest/issues/3853/notes",
+		"method":"post"
+	}
+}

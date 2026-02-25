@@ -22,7 +22,7 @@
     "himanshu.gupta@deeplogictech.com": {
         "id": 169,
         "name": "Himanshu Gupta",
-        "token": "ebedc16e81ad2c36d7d33fe7fe5fcfd9f9db2ca2ce56709f70f97321d89198f260e04b0e1b0b3b1a",
+        "token": "372bea32ea7ff486aa9744627062fca6ba6f88c23df96b63551759a5c77db0ae4fadb9170aa83290",
         "role": "Dev",
         "timezone": "IST",
         "report_to": [
@@ -83,6 +83,26 @@
         "id": 199,
         "name": "Vivek Kumar",
         "token": "848f550b631f7e89037ddfe48b09f8585257c163e7bfacae12b9d29bfa3179af21ae07166fc1ad5e",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "prince.kumar@tekmonks.com": {
+        "id": 200,
+        "name": "Prince Kumar Jha",
+        "token": "43c5daa7f3cf13173789347434c5e00e0f772c7c40797aab4d827662bc00665d743c3d20f4edcbb7",
+        "role": "Dev",
+        "timezone": "IST",
+        "report_to": [
+            "ankit.saxena@deeplogictech.com"
+        ]
+    },
+    "dipanshu.srivastava@tekmonks.com": {
+        "id": 201,
+        "name": "Dipanshu Srivastava",
+        "token": "432130703ec60b4fd6e0c5b27be7590973374f0b9512b16cc3887dd6a296ba4900d66f83a9883eec",
         "role": "Dev",
         "timezone": "IST",
         "report_to": [

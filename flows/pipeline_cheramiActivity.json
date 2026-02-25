@@ -1,0 +1,44 @@
+{
+    "flow": {
+        "name":"monitoring the cherami activity",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"file", 
+        "isMessageGenerator": true,
+        "path":"{{{ESB_DIR}}}/cheramiActivityLogs/*",
+        "donePath":"{{{ESB_DIR}}}/processing"
+    },
+    "route0":{
+        "type": "js",
+        "dependencies":["listener"],
+        "isAsync": false,
+        "module":"{{{ESB_DIR}}}/custom/cheramiActivity.js"
+    },
+    "route1":{
+        "type": "mustache",
+        "dependencies":["route0"],
+        "template":"{{{ESB_DIR}}}/custom/templates/cheramiActivity.html"
+    },
+    "route2":{
+        "type" : "js",
+        "dependencies": ["route1"],
+        "js" : "message.cheramiActivity = message.content; message.content = {}; message.content.html = message.cheramiActivity; delete message.cheramiActivity ;message.content.attachments = message.env.attachments"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route2"],
+		"host":"smtp.gmail.com",
+        "to":"ankit.saxena@deeplogictech.com,bhavesh.dhapola@deeplogictech.com,sasidhar.katikela@deeplogictech.com",
+        "title":"Cherami client activity found",
+        "text":"There is some activity by the InvisagePartners(Cherami) Client.",
+		"port": 465,
+		"secure": true,
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Tracker'<logbot@deeplogictech.com>"
+    }
+    
+}
+

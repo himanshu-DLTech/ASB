@@ -18,7 +18,7 @@
 	"output": {
 		"type": "email",
         "dependencies":"route0",
-		"host":"smtp.mailgun.org",
+		"host":"smtp.gmail.com",
 		"port": 465,
 		"secure": true,
 		"user": "noreply@teleworkr.com",

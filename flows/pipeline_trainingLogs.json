@@ -1,0 +1,46 @@
+{
+    "flow": {
+        "name": "report generation ",
+        "disabled": true,
+        "autoGC": false,
+        "expandRouteProperties": true,
+        "cpuInterval": 15000
+    },
+    "listener": {
+        "type": "timer",
+        "isMessageGenerator": true,
+        "cron": "0 30 11 * * 5"
+    },
+    "route0": {
+        "type": "js",
+        "dependencies": "listener",
+        "module": "{{{ESB_DIR}}}/custom/trainingLogs.js"
+    },
+    "route1": {
+        "type": "mustache",
+        "dependencies": [
+            "route0"
+        ],
+        "template": "{{{ESB_DIR}}}/custom/templates/trainingLogs.html"
+    },
+    "route2": {
+        "type": "js",
+        "dependencies": [
+            "route1"
+        ],
+        "js": "message.logsMsg = message.content; message.content = {}; message.content.html = message.logsMsg; delete message.logsMsg; message.content.to = message.env.to ;"
+    },
+    "output": {
+        "type": "email",
+        "dependencies": [
+            "route2"
+        ],
+        "host": "smtp.mailgun.org",
+        "port": 465,
+        "title": "Training Logs",
+        "secure": true,
+        "user": "logbot@deeplogictech.com",
+        "password": "jafh ocnx jbbx ksim",
+        "from": "watchman@mg.monbosss.com"
+    }
+}

@@ -1,7 +1,7 @@
 {
     "flow": {
-        "name":"Sever Password Change Reminder Fortnightly",
-        "disabled": false,
+        "name":"Manager Leaderboard Appreciation Reminder",
+        "disabled": true,
         "autoGC":false,
         "expandRouteProperties": true,
         "cpuInterval": 15000
@@ -9,24 +9,26 @@
     "listener": {
         "type": "timer",
         "isMessageGenerator": true,
-        "cron": "0 0 10 1,16 * *"
+        "cron": "0 0 6 1,2,3 * *"
     },
     "route0":{
         "type":"mustache",
         "dependencies":["listener"],
-        "template":"{{{ESB_DIR}}}/custom/templates/serverPasswordReminder.html"
+        "template":"{{{ESB_DIR}}}/custom/templates/managerLeaderBoardReminder.html"
     },
     "route1":{
         "type" : "js",
         "dependencies": ["route0"],
-        "module":"{{{ESB_DIR}}}/custom/emailServerPasswordReminder.js"    
+        "js" : "message.logsMsg = message.content; message.content = {}; message.content.html = message.logsMsg; delete message.logsMsg;"
     },
     "output":{
         "type":"email",
         "dependencies" : ["route1"],
 		"host":"smtp.gmail.com",
 		"port": 465,
-        "secure": true,
+        "title":"🎉Leaderboard Appreciation !!",
+        "to":"ankit.saxena@deeplogictech.com,sonu.kumar@deeplogictech.com",
+		"secure": true,
 		"user": "logbot@deeplogictech.com",
 		"password": "jafh ocnx jbbx ksim",
 		"from": "'Reminder'<watchman@mg.monbosss.com>"

@@ -1,0 +1,39 @@
+{
+    "flow": {
+        "name":"report generation ",
+        "disabled": true,
+        "autoGC":false,
+        "expandRouteProperties": true,
+        "cpuInterval": 15000
+    },
+    "listener": {
+        "type": "timer",
+        "isMessageGenerator": true,
+        "cron": "0 30 2 * * 1"
+    },
+    "route0" :{
+        "type":"js",
+        "dependencies" : "listener",
+        "module":"{{{ESB_DIR}}}/custom/leaderBoard.js"
+    },
+    "route1":{
+        "type":"mustache",
+        "dependencies":["route0"],
+        "template":"{{{ESB_DIR}}}/custom/templates/leaderBoard.html"
+    },
+    "route2":{
+        "type" : "js",
+        "dependencies": ["route1"],
+        "module":"{{{ESB_DIR}}}/custom/managmentEmails.js"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route2"],
+		"host":"smtp.gmail.com",
+		"port": 465,
+		"secure": true,
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Tracker'<logbot@deeplogictech.com>"
+    }
+}

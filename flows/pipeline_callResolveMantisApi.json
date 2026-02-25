@@ -1,0 +1,18 @@
+{
+    "flow": {
+        "name":"call email resolve mantis api flow ",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type": "file",
+        "isMessageGenerator": true,
+        "path": "{{{ESB_DIR}}}/resolvedMantisesReport/*",
+        "donePath": "{{{ESB_DIR}}}/processing"
+      },
+    "route0":{
+        "type":"js",
+        "dependencies":["listener"],
+        "module":"{{{ESB_DIR}}}/custom/callResolveMantisApi.js"
+    }
+}

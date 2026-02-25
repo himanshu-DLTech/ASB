@@ -1,0 +1,43 @@
+{
+    "flow": {
+        "name":"Test -> weekly leaderBoard for devs and dba",
+        "disabled": true,
+        "autoGC":false,
+        "expandRouteProperties": true,
+        "cpuInterval": 15000
+    },
+    "listener": {
+        "type":"rest_listener",
+        "isMessageGenerator": true,
+        "host": "167.71.230.49",
+        "port":9000,
+        "url":"/devLB",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route0" :{
+        "type":"js",
+        "dependencies" : "listener",
+        "module":"{{{ESB_DIR}}}/custom/leaderBoardForDev.js"
+    },
+    "route1":{
+        "type":"mustache",
+        "dependencies":["route0"],
+        "template":"{{{ESB_DIR}}}/custom/templates/leaderBoard.html"
+    },
+    "route2":{
+        "type" : "js",
+        "dependencies": ["route1"],
+        "js" : "message.logsMsg = message.content; message.content = {}; message.content.html = message.logsMsg; delete message.logsMsg; message.content.title = `WEEKLY LEADERBOARD - ${message.env.weekRange}` ; const utils = require(CONSTANTS.LIBDIR + '/utils.js');  let users = utils.getRegisterUsers();  message.content.to = Object.keys(users);"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route2"],
+		"host":"smtp.gmail.com",
+		"port": 465,
+		"secure": true,
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Tracker'<logbot@deeplogictech.com>"
+    }
+}

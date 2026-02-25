@@ -1,0 +1,43 @@
+{
+    "flow": {
+        "name":"monitoring the ASI activity",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"file", 
+        "isMessageGenerator": true,
+        "path":"{{{ESB_DIR}}}/asiActivityLogs/*",
+        "donePath":"{{{ESB_DIR}}}/processing"
+    },
+    "route0":{
+        "type": "js",
+        "dependencies":["listener"],
+        "isAsync": false,
+        "module":"{{{ESB_DIR}}}/custom/asiActivity.js"
+    },
+    "route1":{
+        "type": "mustache",
+        "dependencies":["route0"],
+        "template":"{{{ESB_DIR}}}/custom/templates/asiActivity.html"
+    },
+    "route2":{
+        "type" : "js",
+        "dependencies": ["route1"],
+        "js" : "message.asiActivity = message.content; message.content = {}; message.content.html = message.asiActivity; delete message.asiActivity ;message.content.attachments = message.env.attachments"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route2"],
+		"host":"smtp.gmail.com",
+        "to":"sasidhar.katikela@deeplogictech.com,bhavesh.dhapola@deeplogictech.com,ankit.saxena@deeplogictech.com",
+        "title":"ASI client activity found",
+		"port": 465,
+		"secure": true,
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Tracker'<logbot@deeplogictech.com>"
+    }
+    
+}
+

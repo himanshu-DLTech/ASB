@@ -1,0 +1,50 @@
+{
+    "flow": {
+        "name":"REST API for sending reminder of resolve mantises",
+        "disabled": true,
+        "expandRouteProperties": true
+    },
+    "listener": {
+        "type":"rest_listener",
+        "isMessageGenerator": true,
+        "host": "167.71.230.49",
+        "port":9000,
+        "url":"/emailResolveMantis",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+    "route1":{
+        "type":"js",
+        "dependencies":["listener"],
+        "js":" message.env.email = message.content.email; message.content.resolvedIssues= message.content.issues ; message.content.resolvedTable = true;"
+    },
+    "route2":{
+        "type":"mustache",
+        "dependencies":["route1"],
+        "template":"{{{ESB_DIR}}}/custom/templates/resolvedIssues.html"
+    },
+    "route3":{
+        "type" : "js",
+        "dependencies": ["route2"],
+        "js" : "message.logsMsg = message.content; message.content = {}; message.content.html = message.logsMsg; delete message.logsMsg; message.content.title = `🔔 Some RESOLVED Mantises Needs to be CLOSE`; message.content.to = message.env.email;"
+    },
+    "output":{
+        "type":"email",
+        "dependencies" : ["route3"],
+		"host":"smtp.gmail.com",
+		"port": 465,
+		"secure": true,
+		"user": "logbot@deeplogictech.com",
+		"password": "jafh ocnx jbbx ksim",
+		"from": "'Mantis Tracker'<logbot@deeplogictech.com>"
+    },
+    "route4":{
+        "type" : "js",
+        "dependencies": ["output"],
+        "js" : "let result = message.content.rejected; message.content={}; if (!result.length) message.content.result = 'True'; else message.content.result ='false'; "
+    },
+    "output2":{
+        "type":"rest_responder",
+		"dependencies":[ "route4"]
+    }
+}

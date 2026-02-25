@@ -1,0 +1,28 @@
+{
+	"flow":{
+		"name":"Open Bug Mantises If Failed TestCases Found",
+		"disabled":true,
+		"expandRouteProperties": true
+	},
+    "listener": {
+        "type":"rest_listener",
+        "isMessageGenerator": true,
+        "host": "167.71.230.49",
+        "port":9000,
+        "url":"/failedCase",
+        "allow_origin": "*",
+        "timeout": 120000
+    },
+	"route1":{
+		"type": "js",
+		"dependencies":["listener"],
+		"isAsync": false,
+		"module":"{{{ESB_DIR}}}/custom/asbMantisBug.js"
+	  },
+	"route2":{
+		"type" : "rest",
+		"dependencies" : ["route1"],
+		"url":"https://tekmonks.mantishub.io/api/rest/issues",
+		"method":"post"
+	}
+}
