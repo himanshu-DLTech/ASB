@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternate Colored Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border: 1px solid black;
+            border-radius: 10px;
+            overflow: hidden;
+            border-spacing: 0;
+        }
+
+        th,
+        td {
+            padding: 14px;
+            text-align: left;
+            box-sizing: border-box;
+        }
+
+        .even-row {
+            background-color: #E6E6E6;
+            word-break: break-word;
+        }
+
+        .odd-row {
+            background-color: white;
+            word-break: break-word;
+        }
+
+        .mantis-count-badge {
+            background-color: #0000FF;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .mantis-count-badge.green{
+            background-color: green;
+        }
+        .mantis-count-badge.red{
+            background-color: red;
+        }
+        .status-header {
+            margin-top: 0;
+            padding: 5px 10px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .working-on-text {
+            margin-left: 20px;
+            font-size: 15px; 
+            color: #566AFE; 
+        }
+
+        .blue-color {
+            background-color: #C2DFFE;
+        }
+
+        .yellow-color {
+            background-color: #FFF494;
+        }
+
+        .purple-color {
+            background-color: #E3B7EB;
+        }
+
+        .brown-color {
+            background-color: #FACC85;
+        }
+        .new-color{
+            background-color: #F5BCBC;
+        }
+        .resolved-color{
+            background-color: #D2F4B0;
+        }
+        .footer {
+            padding: 20px;
+            text-align: left;
+            color: #777;
+            font-size: 12px;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+        @media only screen and (max-width: 600px) {
+            .responsive-table {
+                display: block;
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .responsive-table th,
+            .responsive-table td {
+                white-space: nowrap;
+            }
+
+            .mantis-count-badge {
+                display: inline-block !important;
+                margin-bottom: 10px;
+            }
+
+            .mobile-hide {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 100%; overflow: hidden; margin-bottom: 20px;">
+        <div style="float: left; width: 80%;">
+            <h2 style="margin: 0; font-size: 14px;">
+                Hi {{name}}, you have <span class="mantis-count-badge">{{count}}</span> open mantises
+            </h2>
+            <h2 style="margin: 10; font-size: 14px;">
+                You have <span class="mantis-count-badge {{#mantisScore}}green{{/mantisScore}}{{^mantisScore}}red{{/mantisScore}}">{{mantisScore}}</span> Mantis Activity Score yesterday ( {{date}} )
+            </h2> 
+        </div >
+    </div>
+    {{#acknowledgedTable}}
+    <h2 class="status-header brown-color">Acknowledged</h2>
+    <span class="working-on-text">You are working on these Mantises</span>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <th style="width: 6%">#</th>
+                <th>Id</th>
+                <th style="width: 40%">Title</th>
+                <th>Channel</th>
+                <th>Priority</th>
+                <th>Severity</th>
+            </tr>
+            {{#acknowledgedIssues}}
+            <tr class="{{class}}">
+                <td style="width: 6%">{{index}}</td>
+                <td><a href="{{link}}">{{id}}</a></td>
+                <td style="width: 40%">{{title}}</td>
+                <td>{{channel}}</td>
+                <td>{{priority}}</td>
+                <td>{{severity}}</td>
+            </tr>
+            {{/acknowledgedIssues}}
+        </table>
+    </div>
+    {{/acknowledgedTable}}
+
+    {{#feedbackTable}}
+    <h2 style="margin-top: 30px;" class="status-header purple-color">Feedback</h2>
+    <span class="working-on-text">Provide your feedback on below mantises</span>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <th style="width: 6%">#</th>
+                <th>Id</th>
+                <th style="width: 40%">Title</th>
+                <th>Channel</th>
+                <th>Priority</th>
+                <th>Severity</th>
+            </tr>
+            {{#feedbackIssues}}
+            <tr class="{{class}}">
+                <td style="width: 6%">{{index}}</td>
+                <td><a href="{{link}}">{{id}}</a></td>
+                <td style="width: 40%">{{title}}</td>
+                <td>{{channel}}</td>
+                <td>{{priority}}</td>
+                <td>{{severity}}</td>
+            </tr>
+            {{/feedbackIssues}}
+        </table>
+    </div>
+    {{/feedbackTable}}
+
+    {{#assignedTable}}
+    <h2 style="margin-top: 30px;" class="status-header blue-color">Assigned</h2>
+    <span class="working-on-text">Mantises in your pipeline</span>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <th style="width: 6%">#</th>
+                <th>Id</th>
+                <th style="width: 40%">Title</th>
+                <th>Channel</th>
+                <th>Priority</th>
+                <th>Severity</th>
+            </tr>
+            {{#assignedIssues}}
+            <tr class="{{class}}">
+                <td style="width: 6%">{{index}}</td>
+                <td><a href="{{link}}">{{id}}</a></td>
+                <td style="width: 40%">{{title}}</td>
+                <td>{{channel}}</td>
+                <td>{{priority}}</td>
+                <td>{{severity}}</td>
+            </tr>
+            {{/assignedIssues}}
+        </table>
+    </div>
+    {{/assignedTable}}
+
+    {{#newTable}}
+    <h2 style="margin-top: 30px;" class="status-header new-color">New</h2>
+    <span class="working-on-text">Assign mantises to someone</span>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <th style="width: 6%">#</th>
+                <th>Id</th>
+                <th style="width: 40%">Title</th>
+                <th>Channel</th>
+                <th>Priority</th>
+                <th>Severity</th>
+            </tr>
+            {{#newIssues}}
+            <tr class="{{class}}">
+                <td style="width: 6%">{{index}}</td>
+                <td><a href="{{link}}">{{id}}</a></td>
+                <td style="width: 40%">{{title}}</td>
+                <td>{{channel}}</td>
+                <td>{{priority}}</td>
+                <td>{{severity}}</td>
+            </tr>
+            {{/newIssues}}
+        </table>
+    </div>
+    {{/newTable}}
+
+    {{#resolvedTable}}
+    <h2 style="margin-top: 30px;" class="status-header resolved-color">Resolved</h2>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <th style="width: 6%">#</th>
+                <th>Id</th>
+                <th style="width: 40%">Title</th>
+                <th>Channel</th>
+                <th>Priority</th>
+                <th>Severity</th>
+            </tr>
+            {{#resolvedIssues}}
+            <tr class="{{class}}">
+                <td style="width: 6%">{{index}}</td>
+                <td><a href="{{link}}">{{id}}</a></td>
+                <td style="width: 40%">{{title}}</td>
+                <td>{{channel}}</td>
+                <td>{{priority}}</td>
+                <td>{{severity}}</td>
+            </tr>
+            {{/resolvedIssues}}
+        </table>
+    </div>
+    {{/resolvedTable}}
+
+    {{#confirmedTable}}
+    <h2 style="margin-top: 30px;" class="status-header yellow-color">Confirmed</h2>
+    <span class="working-on-text">Mantises for Documentation/Design/Flow/Training</span>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <th style="width: 6%">#</th>
+                <th>Id</th>
+                <th style="width: 40%">Title</th>
+                <th>Channel</th>
+                <th>Priority</th>
+                <th>Severity</th>
+            </tr>
+            {{#confirmedIssues}}
+            <tr class="{{class}}">
+                <td style="width: 6%">{{index}}</td>
+                <td><a href="{{link}}">{{id}}</a></td>
+                <td style="width: 40%">{{title}}</td>
+                <td>{{channel}}</td>
+                <td>{{priority}}</td>
+                <td>{{severity}}</td>
+            </tr>
+            {{/confirmedIssues}}
+        </table>
+    </div>
+    {{/confirmedTable}}
+    <div class="footer">
+        <p><strong>Note:</strong></p>
+        <p>There are some cases in which you can update mantises notes/action:</p>
+        <ul>
+            <li><strong>FUTURE TASK</strong> - 
+                <br>Template: I will pick this task later. FUTURE-TASK due on DD-MMM-YYYY
+                <br><strong>Example: I will pick this task later. FUTURE-TASK due on 12-OCT-2024</strong>
+            </li>
+            <br>
+            <li><strong>ON HOLD</strong> - 
+                <br>Template: ON-HOLD till DD-MMM-YYYY
+                <strong><br>Example: ON-HOLD till 12-OCT-2024</strong>
+            </li>
+            <br>
+            <li><strong>Feedback</strong> - 
+                <br>If mantis does not belong to you and requires review from another person:
+                <br>Assign it to the concerned person by asking for review and change the status to FEEDBACK.
+            </li>
+        </ul>
+        <p>* Dates mentioned in points 1 and 2 must be future dates.</p>
+    </div>
+</body>
+
+</html>

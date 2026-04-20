@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternate Colored Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border: 1px solid black;
+            border-radius: 10px;
+            overflow: hidden;
+            border-spacing: 0;
+        }
+
+        th,
+        td {
+            padding: 14px;
+            text-align: left;
+            box-sizing: border-box;
+        }
+
+        .even-row {
+            background-color: #E6E6E6;
+            word-break: break-word;
+        }
+
+        .odd-row {
+            background-color: white;
+            word-break: break-word;
+        }
+
+        .mantis-count-badge {
+            background-color: #0000FF;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .status-header {
+            margin-top: 0;
+            padding: 5px 10px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .blue-color {
+            background-color: #C2DFFE;
+        }
+
+        .yellow-color {
+            background-color: #FFF494;
+        }
+
+        .purple-color {
+            background-color: #E3B7EB;
+        }
+
+        .brown-color {
+            background-color: #FACC85;
+        }
+
+        .new-color {
+            background-color: #F5BCBC;
+        }
+
+        .resolved-color {
+            background-color: #D2F4B0;
+        }
+        .footer {
+            padding: 20px;
+            text-align: left;
+            color: #777;
+            font-size: 12px;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .responsive-table {
+                display: block;
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .responsive-table th,
+            .responsive-table td {
+                white-space: nowrap;
+            }
+
+            .mantis-count-badge {
+                display: inline-block !important;
+                margin-bottom: 10px;
+            }
+
+            .mobile-hide {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hi {{name}}</p>
+    <p>I wanted to bring your attention to the following Mantises that have not been updated for 14 days.</p>
+    <p>Please update !!</p>
+    {{#table}}
+    <h2 style="margin-top: 30px;" class="status-header resolved-color">Overdue Mantis</h2>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <th style="width: 6%">#</th>
+                <th>Id</th>
+                <th style="width: 40%">Title</th>
+                <th>Channel</th>
+                <th>Priority</th>
+                <th>Severity</th>
+            </tr>
+            {{#overDueMantis}}
+            <tr class="{{class}}">
+                <td style="width: 6%">{{index}}</td>
+                <td><a href="{{link}}">{{id}}</a></td>
+                <td style="width: 40%">{{title}}</td>
+                <td>{{channel}}</td>
+                <td>{{priority}}</td>
+                <td>{{severity}}</td>
+            </tr>
+            {{/overDueMantis}}
+        </table>
+    </div>
+    {{/table}}
+    <div class="footer">
+        <p><strong>Note:</strong></p>
+        <p>There are some cases in which you can update mantises notes/action:</p>
+        <ul>
+            <li><strong>FUTURE TASK</strong> - 
+                <br>Template: I will pick this task later. FUTURE-TASK due on DD-MMM-YYYY
+                <br><strong>Example: I will pick this task later. FUTURE-TASK due on 12-OCT-2024</strong>
+            </li>
+            <br>
+            <li><strong>ON HOLD</strong> - 
+                <br>Template: ON-HOLD till DD-MMM-YYYY
+                <strong><br>Example: ON-HOLD till 12-OCT-2024</strong>
+            </li>
+            <br>
+            <li><strong>Feedback</strong> - 
+                <br>If mantis does not belong to you and requires review from another person:
+                <br>Assign it to the concerned person by asking for review and change the status to FEEDBACK.
+            </li>
+        </ul>
+        <p>* Dates mentioned in points 1 and 2 must be future dates.</p>
+    </div>
+</body>
+
+</html>

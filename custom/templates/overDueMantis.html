@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternate Colored Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border: 1px solid black;
+            border-radius: 10px;
+            overflow: hidden;
+            border-spacing: 0;
+        }
+
+        th,
+        td {
+            padding: 14px;
+            text-align: left;
+            box-sizing: border-box;
+        }
+
+        .even-row {
+            background-color: #E6E6E6;
+            word-break: break-word;
+        }
+
+        .odd-row {
+            background-color: white;
+            word-break: break-word;
+        }
+
+        .mantis-count-badge {
+            background-color: #0000FF;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .status-header {
+            margin-top: 0;
+            padding: 5px 10px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .blue-color {
+            background-color: #C2DFFE;
+        }
+
+        .yellow-color {
+            background-color: #FFF494;
+        }
+
+        .purple-color {
+            background-color: #E3B7EB;
+        }
+
+        .brown-color {
+            background-color: #FACC85;
+        }
+
+        .new-color {
+            background-color: #F5BCBC;
+        }
+
+        .resolved-color {
+            background-color: #D2F4B0;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .responsive-table {
+                display: block;
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .responsive-table th,
+            .responsive-table td {
+                white-space: nowrap;
+            }
+
+            .mantis-count-badge {
+                display: inline-block !important;
+                margin-bottom: 10px;
+            }
+
+            .mobile-hide {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hi {{name}}</p> 
+    <p>This is a gentle reminder about the following open Mantis issues that are currently assigned to you and require your updates on them.</p>
+    {{#table}}
+    <h2 style="margin-top: 30px;" class="status-header resolved-color">Overdue Mantis</h2>
+    <div class="responsive-table">
+        <table>
+            <tr>
+                <th style="width: 6%">#</th>
+                <th>Id</th>
+                <th style="width: 40%">Title</th>
+                <th>Channel</th>
+                <th>Priority</th>
+                <th>Severity</th>
+            </tr>
+            {{#overDueMantis}}
+            <tr class="{{class}}">
+                <td style="width: 6%">{{index}}</td>
+                <td><a href="{{link}}">{{id}}</a></td>
+                <td style="width: 40%">{{title}}</td>
+                <td>{{channel}}</td>
+                <td>{{priority}}</td>
+                <td>{{severity}}</td>
+            </tr>
+            {{/overDueMantis}}
+        </table>
+    </div>
+    {{/table}}
+
+</body>
+
+</html>
