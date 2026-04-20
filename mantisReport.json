@@ -19845,5 +19845,2560 @@
         ]
       }
     ]
+  },
+  "2026-02-25": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Prince Kumar Jha",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 9,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monboss/pull/25",
+          "https://github.com/TekMonksGitHub/monboss/pull/26"
+        ]
+      },
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/177"
+        ]
+      },
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/172",
+          "https://github.com/TekMonksGitHub/neuranet/pull/176"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/178",
+          "https://github.com/TekMonksGitHub/neuranet/pull/175",
+          "https://github.com/TekMonksGitHub/neuranet/pull/174"
+        ]
+      },
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-02-26": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-02-27": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/181"
+        ]
+      },
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monkshu/pull/60",
+          "https://github.com/TekMonksGitHub/neuranet/pull/180"
+        ]
+      }
+    ]
+  },
+  "2026-02-28": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-01": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-02": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Harshavardhan",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/cyberwarrior/pull/2"
+        ]
+      },
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      },
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/111"
+        ]
+      }
+    ]
+  },
+  "2026-03-03": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/cyberwarrior/pull/4",
+          "https://github.com/TekMonksGitHub/cyberwarrior/pull/5"
+        ]
+      }
+    ]
+  },
+  "2026-03-04": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-05": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-03-06": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      },
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monkvision/pull/70"
+        ]
+      },
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-03-07": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-08": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-09": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 7,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "dipanshu.srivastava@tekmonks.com",
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/112"
+        ]
+      },
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/185",
+          "https://github.com/TekMonksGitHub/neuranet/pull/186",
+          "https://github.com/TekMonksGitHub/neuranet/pull/184"
+        ]
+      }
+    ]
+  },
+  "2026-03-10": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "dipanshu.srivastava@tekmonks.com",
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/113"
+        ]
+      },
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/187"
+        ]
+      }
+    ]
+  },
+  "2026-03-11": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 5,
+        "role": "Manager"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/190",
+          "https://github.com/TekMonksGitHub/neuranet/pull/189"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monkshu/pull/61",
+          "https://github.com/TekMonksGitHub/neuranet/pull/188"
+        ]
+      },
+      {
+        "email": "dipanshu.srivastava@tekmonks.com",
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/114"
+        ]
+      },
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-03-12": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monkshu/pull/62"
+        ]
+      },
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/191"
+        ]
+      }
+    ]
+  },
+  "2026-03-13": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/7"
+        ]
+      },
+      {
+        "email": "dipanshu.srivastava@tekmonks.com",
+        "name": "Dipanshu Srivastava",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-03-14": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "dipanshu.srivastava@tekmonks.com",
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/115"
+        ]
+      }
+    ]
+  },
+  "2026-03-15": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-16": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 7,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/8",
+          "https://github.com/TekMonksGitHub/xbin/pull/9"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/193",
+          "https://github.com/TekMonksGitHub/neuranet/pull/192"
+        ]
+      }
+    ]
+  },
+  "2026-03-17": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 9,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/11"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/199"
+        ]
+      },
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 3,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/195",
+          "https://github.com/TekMonksGitHub/neuranet/pull/197",
+          "https://github.com/TekMonksGitHub/xbin/pull/10"
+        ]
+      },
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/198",
+          "https://github.com/TekMonksGitHub/neuranet/pull/196"
+        ]
+      }
+    ]
+  },
+  "2026-03-18": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 13,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 5,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/119",
+          "https://github.com/TekMonksGitHub/kloudust/pull/121",
+          "https://github.com/TekMonksGitHub/kloudust/pull/117",
+          "https://github.com/TekMonksGitHub/kloudust/pull/118",
+          "https://github.com/TekMonksGitHub/kloudust/pull/116"
+        ]
+      },
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/202",
+          "https://github.com/TekMonksGitHub/neuranet/pull/203"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/201"
+        ]
+      },
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/200"
+        ]
+      }
+    ]
+  },
+  "2026-03-19": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/205",
+          "https://github.com/TekMonksGitHub/neuranet/pull/204"
+        ]
+      }
+    ]
+  },
+  "2026-03-20": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 14,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 6,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "siddharth.tiwari@deeplogictech.com",
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/kloudust/pull/122",
+          "https://github.com/TekMonksGitHub/kloudust/pull/123"
+        ]
+      },
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/206"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-03-21": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-22": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-23": {
+    "openIssues": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 4,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      },
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/13",
+          "https://github.com/TekMonksGitHub/xbin/pull/12"
+        ]
+      }
+    ]
+  },
+  "2026-03-24": {
+    "openIssues": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Gulati",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/14"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-03-25": {
+    "openIssues": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 6,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "himanshu.gupta@deeplogictech.com",
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/ASB/pull/38",
+          "https://github.com/TekMonksGitHub/ASB/pull/37"
+        ]
+      },
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/15"
+        ]
+      },
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monkvision/pull/71"
+        ]
+      }
+    ]
+  },
+  "2026-03-26": {
+    "openIssues": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 10,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 6,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      },
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/5"
+        ]
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/clientcode/pull/59"
+        ]
+      }
+    ]
+  },
+  "2026-03-27": {
+    "openIssues": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Prince Kumar Jha",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/16"
+        ]
+      }
+    ]
+  },
+  "2026-03-28": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-29": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-03-30": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 3,
+        "role": "Manager"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 8,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 4,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/xbin/pull/17"
+        ]
+      }
+    ]
+  },
+  "2026-03-31": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/llminfer/pull/1"
+        ]
+      },
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-04-01": {
+    "openIssues": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/210"
+        ]
+      }
+    ]
+  },
+  "2026-04-02": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-04-03": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 5,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-04-04": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-04-05": {
+    "openIssues": [],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-04-06": {
+    "openIssues": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-04-07": {
+    "openIssues": [
+      {
+        "name": "Ankit Saxena",
+        "count": 2,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Ankit Saxena",
+        "count": 4,
+        "role": "Manager"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/212"
+        ]
+      }
+    ]
+  },
+  "2026-04-08": {
+    "openIssues": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 3,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-04-09": {
+    "openIssues": [
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-04-10": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Siddharth Tiwari",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-04-11": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-04-12": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
+  },
+  "2026-04-13": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": []
+  },
+  "2026-04-14": {
+    "openIssues": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/loginapp/pull/16"
+        ]
+      }
+    ]
+  },
+  "2026-04-15": {
+    "openIssues": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Nishant Bindhani",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Lavanya Sharma",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 6,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "nishant.bindhani@deeplogictech.com",
+        "name": "Nishant Bindhani",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      },
+      {
+        "email": "shiv.arora@deeplogictech.com",
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/neuranet/pull/214",
+          "https://github.com/TekMonksGitHub/neuranet/pull/213"
+        ]
+      }
+    ]
+  },
+  "2026-04-16": {
+    "openIssues": [
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Shiv Arora",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 4,
+        "role": "Dev"
+      },
+      {
+        "name": "Nishant Bindhani",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/loginapp/pull/17"
+        ]
+      }
+    ]
+  },
+  "2026-04-17": {
+    "openIssues": [
+      {
+        "name": "Himanshu Gupta",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Ankit Saxena",
+        "count": 1,
+        "role": "Manager"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Shiv Arora",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "count": 2,
+        "role": "Dev"
+      },
+      {
+        "name": "Vivek Kumar",
+        "count": 1,
+        "role": "Dev"
+      },
+      {
+        "name": "Dipanshu Srivastava",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "vivek.kumar@tekmonks.com",
+        "name": "Vivek Kumar",
+        "count": 0,
+        "role": "Dev",
+        "links": []
+      }
+    ]
+  },
+  "2026-04-18": {
+    "openIssues": [
+      {
+        "name": "Prince Kumar Jha",
+        "count": 1,
+        "role": "Dev"
+      }
+    ],
+    "userNotes": [
+      {
+        "name": "Lavanya Sharma",
+        "count": 5,
+        "role": "Dev"
+      },
+      {
+        "name": "Prince Kumar Jha",
+        "count": 2,
+        "role": "Dev"
+      }
+    ],
+    "usersPR": [
+      {
+        "email": "lavanya.sharma@deeplogictech.com",
+        "name": "Lavanya Sharma",
+        "count": 2,
+        "role": "Dev",
+        "links": [
+          "https://github.com/TekMonksGitHub/monkvision/pull/72",
+          "https://github.com/TekMonksGitHub/monboss/pull/27"
+        ]
+      }
+    ]
+  },
+  "2026-04-19": {
+    "openIssues": [],
+    "userNotes": [],
+    "usersPR": []
   }
 }
